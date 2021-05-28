@@ -5,8 +5,8 @@ on:
       - main
   pull_request:
   
-  env:
-    workspaceURL: ${{ secrets.TFE_WORKSPACE_URL }}
+env:
+  workspaceURL: ${{ secrets.TFE_WORKSPACE_URL }}
     
   jobs: 
     Terraform: 
